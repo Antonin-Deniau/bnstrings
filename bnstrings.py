@@ -5,7 +5,7 @@ def spawn(bv):
   r2 = r2pipe.open(bv.file.filename.replace(".bndb", ""))
 
   r2.cmd("aaaa")
-  strings = r2.cmdj("izj")
+  strings = r2.cmdj("izzj")
   r2.quit()
 
   log_info("{} string(s) loaded".format(len(strings)))
